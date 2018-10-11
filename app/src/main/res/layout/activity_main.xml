@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numbers"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/idnumber"
+
+        />
+
+    <TextView
+android:id="@+id/idfamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="Family Members"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_bright"
+        />
+
+    <TextView
+        android:id="@+id/idcolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:text="Colors"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_green_light"
+        />
+
+
+    <TextView
+        android:id="@+id/idphrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phrases"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"
+        />
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="15dp"-->
+        <!--android:text="Button"-->
+        <!--android:textAllCaps="true"-->
+        <!--android:onClick="button"-->
+        <!--/>-->
+
+</LinearLayout>
